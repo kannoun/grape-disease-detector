@@ -28,7 +28,7 @@ Our EfficientNet-B0 based model achieves exceptional performance:
 
 ### Detection Results
 ![Detection Results](Screenshots/Screenshot2.jpeg)
-*Detailed disease classification with confidence scores*
+*Disease classification with confidence scores*
 
 ## 🛠️ Technology Stack
 
