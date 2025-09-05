@@ -55,6 +55,7 @@ cd grape-disease-detector
 ```
 
 #### 2. Install Node.js Dependencies
+```bash
 pnpm install
 ```
 
@@ -112,7 +113,7 @@ Access the application at `http://localhost:8080`
 - **Fine-tuning**: Full model fine-tuning for optimal performance
 - **Data Augmentation**: Rotation, flips, color jittering, and resizing
 
-## 🔬 Training Details
+## 🔬 Training Details [Kaggle Notebook](https://www.kaggle.com/code/kannoun/grape-leaf-disease-accuracy-99)
 
 The model was trained using a two-stage approach:
 
