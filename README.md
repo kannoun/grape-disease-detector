@@ -90,7 +90,7 @@ Visit `http://localhost:3000` to access the application.
 #### Quick Start with Docker
 ```bash
 # Pull and run the pre-built Docker image from Docker Hub
-sudo docker run -it -p 8080:8080 --name grape-disease-detector grape-disease-detector-image:v2
+sudo docker run -it -p 8080:8080 --name grape-disease-detector kannoun/grape-disease-detector:v2
 # OR: Pull and run the image directly from GitHub Container Registry
 sudo docker run -it -p 8080:8080 --name grape-disease-detector ghcr.io/kannoun/grape-disease-detector:v2
 ```
