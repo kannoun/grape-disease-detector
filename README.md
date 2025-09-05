@@ -16,7 +16,7 @@ Our EfficientNet-B0 based model achieves exceptional performance:
 - **Total Training Epochs**: 40 (30 frozen + 10 fine-tuned)
 
 ### Training Metrics
-![Training Results](path/to/your/training_chart.png)
+![Training Results](Screenshots/training_chart.png)
 
 *The model shows excellent convergence with minimal overfitting, achieving near-perfect accuracy on both training and validation sets.*
 
@@ -113,8 +113,8 @@ Access the application at `http://localhost:8080`
 - **Fine-tuning**: Full model fine-tuning for optimal performance
 - **Data Augmentation**: Rotation, flips, color jittering, and resizing
 
-## 🔬 Training Details [Kaggle Notebook](https://www.kaggle.com/code/kannoun/grape-leaf-disease-accuracy-99)
-
+## 🔬 Training Details 
+[Kaggle Notebook](https://www.kaggle.com/code/kannoun/grape-leaf-disease-accuracy-99)
 The model was trained using a two-stage approach:
 
 1. **Stage 1** (30 epochs): Frozen EfficientNet backbone, train only classifier
